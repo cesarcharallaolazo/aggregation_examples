@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.DS_Store
+.idea/
+*.zip
+*.csv
+src/aggregation.py
+!pyspark_job.log
