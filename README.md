@@ -7,8 +7,9 @@ Python 3.8.3 was used
     pip install virtualenv
     virtualenv venv --python=python3.8
 
-#### init virtual env
+#### init virtual env & install requeriments
     source venv/bin/activate
+    pip install -r requeriments.txt
 
 #### run script & tests
     python src/deduplicate.py
