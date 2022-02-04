@@ -25,7 +25,7 @@ if __name__ == "__main__":
         print(df_final, flush=True)
     except FileNotFoundError:
         logging.warning("The is not present !")
-    except KeyError as err:
-        logging.warning(f"Key not encountered --> {err.args[0]}, verify !")
     except EmptyDataError:
         logging.warning("Empty Dataframe ! Verify the file")
+    except KeyError as err:
+        logging.warning(f"Key not encountered --> {err.args[0]}, verify !")
