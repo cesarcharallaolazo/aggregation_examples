@@ -9,7 +9,7 @@ Python 3.8.3 was used
 
 #### init virtual env & install requeriments
     source venv/bin/activate
-    pip install -r requeriments.txt
+    pip install -r requirements.txt
 
 #### run script & tests
     python src/deduplicate.py
