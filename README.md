@@ -6,6 +6,10 @@ Python 3.8.3 was used
 #### install virtual env
     pip install virtualenv
     virtualenv venv --python=python3.8
+    
+#### install virtual env with pyenv
+    pyenv install 3.8.3
+    virtualenv -p {root}/.pyenv/versions/3.8.3/bin/python3 venv
 
 #### init virtual env & install requeriments
     source venv/bin/activate
